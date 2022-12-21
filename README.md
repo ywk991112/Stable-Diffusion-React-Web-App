@@ -13,4 +13,4 @@ Run the backend and frontend:
 ./start_frontend.sh
 ```
 
-Open the web app in the [browser](localhost:3000)
+Open the [web app](http://localhost:3000) in the browser.
