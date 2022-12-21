@@ -117,7 +117,7 @@ export default function App() {
         <Grid container spacing={2}>
           <Grid item xs={5}>
             <TextField required fullWidth id="prompt" label="Prompt" variant="outlined" onChange={(e) => setPrompt(e.target.value)} />
-            <TextField required fullWidth id="neg_prompt" label="Negative Prompt" variant="outlined"  onChange={(e) => setNegPrompt(e.target.value)} />
+            <TextField fullWidth id="neg_prompt" label="Negative Prompt" variant="outlined"  onChange={(e) => setNegPrompt(e.target.value)} />
             <FormControl sx={{ m: 1, minWidth: 120 }}>
               <InputLabel id="demo-simple-select-helper-label">Width</InputLabel>
               <Select
